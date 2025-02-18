@@ -22,7 +22,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           '西门美月匈XD'
 description:	       ''
-author:              ''
+author:              '西门美月匈XD'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
