@@ -20,8 +20,8 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'Lagrange'
-description:	       'a minimalist Jekyll theme'
+title:		           '西门美月匈XD'
+description:	       '在爱的幸福国度'
 author:              'Paul Le'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
