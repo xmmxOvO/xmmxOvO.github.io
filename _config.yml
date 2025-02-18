@@ -21,8 +21,8 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           '西门美月匈XD'
-description:	       'の幸福国度'
-author:              'Paul Le'
+description:	       ''
+author:              ''
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
