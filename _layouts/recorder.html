@@ -7,14 +7,14 @@ layout: default
 </h1>
 
 <ul class="posts-container">
-    {% for post in site.posts %} {% unless post.next %}
-    <h3>{{ post.date | date: '%Y' }}</h3>
-    {% else %} {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %} {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %} {% if year != nyear %}
-    <h3>{{ post.date | date: '%Y' }}</h3>
+    {% for vedio in site.vedios %} {% unless vedio.next %}
+    <h3>{{ vedio.date | date: '%Y' }}</h3>
+    {% else %} {% capture year %}{{ vedio.date | date: '%Y' }}{% endcapture %} {% capture nyear %}{{ vedio.next.date | date: '%Y' }}{% endcapture %} {% if year != nyear %}
+    <h3>{{ vedio.date | date: '%Y' }}</h3>
     {% endif %} {% endunless %}
     <li itemscope>
         <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-        <p class="post-date"><span><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %-d" }} - <i
+        <p class="post-date"><span><i class="fa fa-calendar" aria-hidden="true"></i> {{ vedio.date | date: "%B %-d" }} - <i
           class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span></p>
     </li>
     {% endfor %}
