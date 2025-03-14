@@ -2,7 +2,7 @@
 layout: recorder
 title: "Welcome to Lagrange!"
 author: "Paul Le"
-categories: vedio
+category: vedio
 tags: [documentation,sample]
 image: mountains.jpg
 ---
