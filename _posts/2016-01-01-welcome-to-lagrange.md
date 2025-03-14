@@ -1,5 +1,5 @@
 ---
-layout: recorder
+layout: post
 title: "Welcome to Lagrange!"
 author: "Paul Le"
 category: vedio
